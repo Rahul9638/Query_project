@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="/index.html">Home</a>
+        <a href="#">Search</a>
+    </div>
+    
+    <div class="container">
+
+        <h2>Search Your Queries Here</h2>
+        Search By question: <input type="text" id="sch" placeholder="Search by Question" onkeyup="searchQuery()"><br>
+        Search By Tags: <input type="text" id="schhh" placeholder="Search by Tags" onkeypress="searchTag()"><br>
+        <button class="btn" ><a href="/index.html" style="text-decoration: none;">Add More Queries</a></button>
+        <button class="btn"  onclick="showAll()">Show All Queries</button>
+        
+        <br>
+        <table class="tbod">
+            <thead>
+                <th>S.No</th>
+                <th>Query</th>
+                <th>Topics</th>
+                <th>Tags</th>
+                
+            </thead>
+            <tbody id="result">
+            </tbody>
+        </table>
+        
+        <script src="/script.js"></script>
+    </div>
+    
+</body>
+</html>

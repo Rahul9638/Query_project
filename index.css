@@ -1,0 +1,71 @@
+
+        body {
+            padding: 10px 50px;
+        }
+
+        .formdesign {
+            font-size: 20px;
+
+        }
+
+        .formdesign input {
+            width: 50%;
+            padding: 12px 20px;
+            border: 1px solid blue;
+            margin: 14px;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        .formerror {
+            color: red;
+        }
+
+        .but {
+            border-radius: 9px;
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+            margin: 22px 20px;
+        }
+ body{
+     text-align: center;
+ }
+ .tbod{
+    border: 3px solid grey;
+    width: 89%;
+    margin: 49px auto;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+.nav a{
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px 4px;
+    font-size: 22px;
+}
+
+.nav{
+    border: 2px solid green;
+    font-size: -1px;
+    padding: 16px;
+}
+
+.container{
+    margin-top: 33px;
+    border: 2px solid black;
+    background-color: #f6f6f6;
+}
+
+.btn{
+    margin-top: 12px;
+    padding: 7px;
+    margin-left: 30px;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+.container input{
+    margin: 12px;
+}

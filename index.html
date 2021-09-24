@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and Search Queries</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="/searchQuery.html">Search</a>
+    </div>
+
+    <div class="container">
+
+        <h1>Add the Questions, Topics and Tags</h1>
+        <form  name="myForm" onsubmit="return !!(validateForm() && addQuestion())">
+            <div class="formdesign" id="question">
+                Query: <input type="text" name="Question" id="questionss" required><b><span class="formerror"> </span></b>
+            </div>
+            
+            <div class="formdesign" id="topic">
+                Topics: <input type="text" name="Topic" id="topicss" required><b><span class="formerror"> </span></b>
+            </div>
+            
+            <div class="formdesign" id="tags">
+                Tags: <input type="text" name="Tag" id="tagss" required><b><span class="formerror"></span></b>
+            </div>
+            
+            
+            
+            <input class="but"  type="submit" value="Submit">
+            <!-- <button class="but" ><a href="/searchQuery.html" style="text-decoration: none;color: black;">Search</a></button> -->
+            
+            
+        </form>
+        
+        
+        
+        
+        <script src="/script.js"></script>
+    </div>
+</body>
+</html>
